@@ -3,6 +3,7 @@ import react from '@vitejs/plugin-react';
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: process.env.NODE_ENV === 'production' ? '/vite-sample-project/' : '/',
   plugins: [react()],
   server: {
     open: true, // 加這一行，run dev才會自動開網頁
