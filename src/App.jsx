@@ -128,6 +128,7 @@ function App() {
               </button>
             </form>
           </div>
+          <p className="mt-5 mb-3 text-muted">&copy; 2024~∞ - 六角學院</p>
         </div>
       ) : (
         <div className="container">
