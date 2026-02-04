@@ -30,4 +30,5 @@ img {
 
 .images {
   height: 150px;
+  margin-right: 5px; /* 加點邊距 */
 }
